@@ -3,6 +3,7 @@
     border: 0;
     box-sizing: border-box;
 }
+
 body{
     background: #131313;
     display: flex;
