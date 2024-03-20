@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #131313;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    justify-content: space-between;
+}
+.reloj {
+    background-color: #333;
+    color: #fff;
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 5px 8px;
+    font-size: 4.5em;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.setearAlarma{
+    color: #efeb;
+    background-color: #333;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    gap: 5px;
+}
+
+.setearAlarma p{
+    font-size: 2em;
+    padding: 0px 20px;
+    font-family: monospace;
+}
+
+.setearAlarma div{
+    text-align: center;
+}
+
+.dia{
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.horaAlarma{
+    /* height: 20px; */
+    /* padding: 10px 15px;  */
+    background-color: #333;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+#id1{
+    background-color: #333;
+    color: #fef;
+    font-family: monospace;
+    font-size: 2em;
+    border-radius: 5px;
+}
+
+#texto{
+    background-color: #333;
+    color: #fef;
+    font-family: monospace;
+    font-size: 1.3em;
+    /* text-align: center; */
+    padding: 4px 4px;
+    margin: 0px 10px;
+}
+
+#texto::placeholder{
+    color: #fef;
+    font-family: monospace;
+    font-size: 1.3empx;
+    /* text-align: center; */
+}
+
+
+.btnAlarma{
+    background-color: #333;
+    font-size: 1.5em;
+    font-family: monospace;
+}
+.btnAlarma:hover{
+    scale: 1.03;
+    color: #13ff;
+    transition: all 0.1s linear;
+}
